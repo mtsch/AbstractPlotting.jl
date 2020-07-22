@@ -43,6 +43,9 @@ end
     end
 end
 
+# Test statistical recipes
+include("statistical_tests.jl")
+
 if GLMakie.WORKING_OPENGL
     # full MakieGallery comparisons here
     include("glmakie_tests.jl")
